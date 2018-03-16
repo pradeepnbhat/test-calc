@@ -9,8 +9,7 @@ namespace Calculator
     public class Calculator
     {
         public int Add(int x, int y)
-        {
-            // Add a comment
+        {   
             return x + y;
         }
 
