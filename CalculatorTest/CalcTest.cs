@@ -75,6 +75,13 @@ namespace CalculatorTest
             Calculator.Calculator calc = new Calculator.Calculator();
             Assert.AreEqual(5, calc.Add(2, 3));
         }
+        
+        [TestMethod]
+        public void AddTest11()
+        {
+            Calculator.Calculator calc = new Calculator.Calculator();
+            Assert.AreEqual(5, calc.Add(2, 3));
+        }
 
 
         [TestMethod]
