@@ -10,7 +10,7 @@ namespace CalculatorTest
         public void AddTest1()
         {
             Calculator.Calculator calc = new Calculator.Calculator();
-            Assert.AreEqual(5, calc.Add(2, 3));
+            Assert.AreEqual(6, calc.Add(2, 3));
         }
 
         [TestMethod]
